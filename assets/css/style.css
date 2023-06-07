@@ -8,6 +8,7 @@ body{
     background-color: #222222;
     font-family: 'DM Sans', sans-serif;
     min-width: 810px;
+    height: 100%;
     padding: 0 2rem;
 }
 
@@ -233,7 +234,6 @@ header{
                 margin-bottom: 2rem;
             }
 
-            width: 100%;
             padding: 3rem;
             background-color: #2c2c2c;
 
