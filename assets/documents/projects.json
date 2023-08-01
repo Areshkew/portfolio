@@ -1,0 +1,77 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "name": "PyFarmer Bill Administrator",
+      "screenshots": [
+        "imgs/PyFarmer/VISTA_LISTA_FACTURAS_3.webp",
+        "imgs/PyFarmer/VISTA_CRUD_PRODUCTOS_4.webp",
+        "imgs/PyFarmer/VISTA_LISTA_FACTURAS_2.webp",
+        "imgs/PyFarmer/VISTA_LISTA_FACTURAS.webp",
+        "imgs/PyFarmer/Vista_CRUD_Clientes_2.webp",
+        "imgs/PyFarmer/VISTA_CRUD_CREAR_FACTURA.webp",
+        "imgs/PyFarmer/VISTA_CRUD_PRODUCTOS_3.webp",
+        "imgs/PyFarmer/VISTA_CRUD_PRODUCTOS_2.webp",
+        "imgs/PyFarmer/Vista_CRUD_PRODUCTOS.webp",
+        "imgs/PyFarmer/Vista_CRUD_Clientes..webp"
+      ],
+      "repoLink": "https://github.com/Areshkew/pyfarmer",
+      "thumbnail": "imgs/PyFarmer/thumbnail.webp",
+      "privacy": "Public",
+      "stack": "Python, PyQT",
+      "description": "Development of a billing system for an agricultural store that sells control products (fertilizers, pesticides) and antibiotics for farm animals. It allows registering customers, managing product sales, and generating invoices with the total purchase amount."
+    },
+    {
+      "id": 1,
+      "name": "Vehicle Routing Problem",
+      "screenshots": [
+        "imgs/VRP/VRP-10k.webp"
+      ],
+      "repoLink": "https://github.com/Areshkew/VRP_VND",
+      "thumbnail": "imgs/VRP/thumbnail.webp",
+      "privacy": "Public",
+      "stack": "C++, CMake",
+      "description": "This project addresses the Vehicle Route Problem using QuadTree and Variable Neighbour Descent algorithms. The system aims to optimize vehicle routing, making it an efficient solution for various transportation and logistics scenarios."
+    },
+    {
+      "id": 2,
+      "name": "RezRPG",
+      "screenshots": [
+        "imgs/RezRPG/78222d33-22ea-457e-b29a-b3f4402f692c.webp",
+        "imgs/RezRPG/9675f91b-8857-4db3-8031-07bb6755c90b.webp",
+        "imgs/RezRPG/8cbb7b6f-3139-4b57-9051-dd8bb00ce3c8.webp",
+        "imgs/RezRPG/ef5a7a3a-a90f-4945-8bba-2a685fb458b9.webp"
+      ],
+      "repoLink": "https://github.com/Areshkew/rezRPG",
+      "thumbnail": "imgs/RezRPG/78222d33-22ea-457e-b29a-b3f4402f692c.webp",
+      "privacy": "Public",
+      "stack": "Javascript, KaboomJS",
+      "description": "RezRPG is an exciting game that delivers a complete and challenging experience with various sprites, 3 levels, a score counter, a lives system, unique mechanics, an introduction, a final boss, different backgrounds, and an interface."
+    },
+    {
+      "id": 3,
+      "name": "AsuClean",
+      "screenshots": [
+        "https://workana.s3.amazonaws.com/portfolios/en/86524ad20875364e8c574265ffd63bdc/firefox_tPvUWRXbQq.jpg?response-content-disposition=inline%3Bfilename%3D%22firefox_tPvUWRXbQq.jpg%22&response-content-type=image%2Fjpeg&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA33COQEVTJSIXHA73%2F20230801%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230801T203353Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=9513d72d529df4e41394ed36f00db58d637ce29fafdb1d6ea0fcaa3a468f7c1c"
+      ],
+      "repoLink": "#",
+      "thumbnail": "imgs/AsuClean/thumbnail.webp",
+      "privacy": "Private",
+      "stack": "NodeJS, Express, Angular, MySQL",
+      "description": "The system is a CRUD for product and availability management, developed using Angular as the frontend and Node.js as the backend. It allows managing cities, quoters, factors, lines, prices, and includes user authentication using tokens. The frontend, built with Angular, provides a user-friendly interface to interact with the backend, which is developed in Node.js using Express.js to handle routes and requests with MySQL."
+    },
+    {
+      "id": 4,
+      "name": "UTPPlayer",
+      "screenshots": [
+        "https://workana.s3.amazonaws.com/portfolios/gj/2b6e97ad1f142b87a71f21427d0e0733/firefox_qBy0HkelVZ.jpg?response-content-disposition=inline%3Bfilename%3D%22firefox_qBy0HkelVZ.jpg%22&response-content-type=image%2Fjpeg&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA33COQEVTJSIXHA73%2F20230801%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230801T203353Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=3f00afd8cf1e7ae2770f0cb4a999146adfdba317f2c8542dc9a43a11a4bdb719",
+        "https://workana.s3.amazonaws.com/portfolios/zt/aef5388e801fbe558daef0a8e19dd702/firefox_jakauaKXRd.jpg?response-content-disposition=inline%3Bfilename%3D%22firefox_jakauaKXRd.jpg%22&response-content-type=image%2Fjpeg&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA33COQEVTJSIXHA73%2F20230801%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230801T203353Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=0a86808755c4b0f0244b833b34c797ae25ad1fdff7fdf587ed8f2470376c4c24"
+      ],
+      "repoLink": "#",
+      "thumbnail": "imgs/UTPPlayer/thumbnail.webp",
+      "privacy": "Private",
+      "stack": "NodeJS, Express, Angular, MySQL",
+      "description": "A music player that includes features such as playlist creation, uploading songs with their respective cover art, and the ability to manage them (e.g., delete). Users can upload their songs for personal listening, making it a standard music player with basic functionality."
+    }
+  ]
+}

@@ -1,10 +1,11 @@
 var accordions = document.getElementsByClassName("accordion");
-var i;
 
-for (i = 0; i < accordions.length; i++) {
+// Accordion Click
+for (let i = 0; i < accordions.length; i++) {
 
     accordions[i].addEventListener("click", function() {
         this.classList.toggle("active");
+        disableAccordions(i);
 
         var panel = this.nextElementSibling; // get content box
 
@@ -17,4 +18,20 @@ for (i = 0; i < accordions.length; i++) {
         } 
   });
 
+}
+
+// Accordion disable
+function disableAccordions(exclusion) {
+    for (let i = 0; i < accordions.length; i++) {
+        if(i != exclusion){
+    
+            var panel = accordions[i].nextElementSibling; // get content box
+
+            if (panel.style.maxHeight && accordions[i].classList.contains("active")) {
+                accordions[i].classList.toggle("active");
+                panel.style.maxHeight = null;
+                panel.style.padding = "0 2rem";
+            }
+        }
+    }
 }
