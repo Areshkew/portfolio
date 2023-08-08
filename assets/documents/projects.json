@@ -52,7 +52,7 @@
       "id": 3,
       "name": "AsuClean",
       "screenshots": [
-        "https://workana.s3.amazonaws.com/portfolios/en/86524ad20875364e8c574265ffd63bdc/firefox_tPvUWRXbQq.jpg?response-content-disposition=inline%3Bfilename%3D%22firefox_tPvUWRXbQq.jpg%22&response-content-type=image%2Fjpeg&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA33COQEVTJSIXHA73%2F20230801%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230801T203353Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=9513d72d529df4e41394ed36f00db58d637ce29fafdb1d6ea0fcaa3a468f7c1c"
+        "imgs/AsuClean/asuclean.webp"
       ],
       "repoLink": "#",
       "thumbnail": "imgs/AsuClean/thumbnail.webp",
@@ -64,8 +64,8 @@
       "id": 4,
       "name": "UTPPlayer",
       "screenshots": [
-        "https://workana.s3.amazonaws.com/portfolios/gj/2b6e97ad1f142b87a71f21427d0e0733/firefox_qBy0HkelVZ.jpg?response-content-disposition=inline%3Bfilename%3D%22firefox_qBy0HkelVZ.jpg%22&response-content-type=image%2Fjpeg&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA33COQEVTJSIXHA73%2F20230801%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230801T203353Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=3f00afd8cf1e7ae2770f0cb4a999146adfdba317f2c8542dc9a43a11a4bdb719",
-        "https://workana.s3.amazonaws.com/portfolios/zt/aef5388e801fbe558daef0a8e19dd702/firefox_jakauaKXRd.jpg?response-content-disposition=inline%3Bfilename%3D%22firefox_jakauaKXRd.jpg%22&response-content-type=image%2Fjpeg&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA33COQEVTJSIXHA73%2F20230801%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230801T203353Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=0a86808755c4b0f0244b833b34c797ae25ad1fdff7fdf587ed8f2470376c4c24"
+        "imgs/UTPPlayer/UtpPlayer_dashboard.webp",
+        "imgs/UTPPlayer/UtpPlayer_login.webp"
       ],
       "repoLink": "#",
       "thumbnail": "imgs/UTPPlayer/thumbnail.webp",
