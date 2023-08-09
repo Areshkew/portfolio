@@ -1,0 +1,43 @@
+#aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+    .aboutme__desc{
+        text-align: justify;
+        font-size: var(--font-size-base);
+    }
+
+    .aboutme__details{
+        display: flex;
+        justify-content: center;
+        height: 60%;
+        text-align: center;
+
+        .details-personal{
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            
+            .title{
+                font-size: var(--font-size-md);
+            }
+
+            .detail{
+                display: flex;
+                flex-direction: column;
+                font-size: var(--font-size-base);
+            }
+
+            .detail span{
+                color: #686868;
+            }
+
+            .detail a{
+                color: white;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,52 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+        background-color: #D96871;
+        max-width: 560px;
+    }
+
+    .form-input{
+        all: unset;
+        border-bottom: 2px solid #eaacb1;
+    }
+
+    .form-input:focus, .form-input:hover{
+        border-bottom: 2px solid white;
+    }
+
+    .form-input::placeholder{
+        color: #ccc;
+    }
+
+    .form-input:focus::placeholder, .form-input:hover::placeholder{
+        color: white;
+    }
+
+    .form-submit{
+        all: unset;
+        width: 25%;
+        border: 2px solid white;
+        text-align: center;
+        padding: 1rem;
+        transition: all 300ms ease-in;
+    }
+    
+    .form-submit:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+        border: 2px solid #D96871;
+        background-color: white;
+        color: #1f1f1f;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+}

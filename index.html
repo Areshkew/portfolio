@@ -15,6 +15,12 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/aboutme.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/education.css">
     <link rel="stylesheet" href="assets/css/projects.css">
     <title>Gustavo Ramirez</title>
 </head>
@@ -29,29 +35,35 @@
                 <li id="educationLink"><a href="#education">Education</a></li>
                 <li id="projectsLink"><a href="#projects">Projects</a></li>
                 <li id="contactLink"><a href="#contact">Contact</a></li>
-                <li><a href="https://github.com/Areshkew" target="_blank" rel="noopener" title="Git">
-                    <img src="assets/icons/github.svg" alt="GitHub" width="24">
-                </a></li> 
-                <li><a href="https://www.linkedin.com/in/areshk/" target="_blank" rel="noopener" title="Git">
-                    <img src="assets/icons/linkedin.svg" alt="LinkedIn" width="24">
-                </a></li> 
             </ul>
         </header>
 
         <div class="content max-width">
             <div id="home"  class="fill-content vh-100">
                 <div class="me">
-                    <h1 id="title-portfolio">I'm <span class="text-decoration-bb">Gustavo Ramirez</span></h1>
-                    <h2>A passionate FullStack</h2>
-                    <h3>Web Developer</h3>
+                    <div class="me-container.">
+                        <h1 id="title-portfolio">I'm <span class="text-decoration-bb">Gustavo Ramirez</span></h1>
+                        <h2>A passionate FullStack</h2>
+                        <h3>Web Developer</h3>
+                    </div>
 
-                    <a href="assets/documents/Gustavo CV.pdf" target="_blank">
-                        <img src="assets/icons/download-solid.svg" alt="Download"  width="32">
-                        Download CV
-                    </a>
+                    <div class="me-container">
+                        <a href="assets/documents/Gustavo CV.pdf" target="_blank">
+                            <img src="assets/icons/download-solid.svg" alt="Download" >
+                            Download CV
+                        </a>
+    
+                        <a href="https://github.com/Areshkew" target="_blank" rel="noopener" title="GitHub">
+                            <img src="assets/icons/github.svg" alt="GitHub" >
+                        </a>
+    
+                        <a href="https://www.linkedin.com/in/areshk/" target="_blank" rel="noopener" title="Linkedin">
+                            <img src="assets/icons/linkedin.svg" alt="LinkedIn" >
+                        </a>
+                    </div>
                 </div>
                 <div class="photo">
-                    <img src="imgs/me.webp" alt="Me" width="400" style="border-radius: 150px; margin-left: 15%; user-select: none; -webkit-user-drag: none;">
+                    <img src="imgs/me.webp" alt="Me">
                 </div>
             </div>
 
@@ -70,28 +82,6 @@
                 </div>
 
                 <div class="aboutme__details">
-                    <div class="details-skills">
-                        <div class="skill-box skill-blue">
-                            <img src="assets/icons/globe-solid.svg" alt="Globe Icon" width="32">
-                            Websites
-                        </div>
-                        
-                        <div class="skill-box skill-gray">
-                            <img src="assets/icons/server-solid.svg" alt="Server Icon" width="32">
-                            Backend
-                        </div>
-                        
-                        <div class="skill-box skill-green">
-                            <img src="assets/icons/cubes-solid.svg" alt="Cubes Icon" width="32">
-                            Software <br>
-                            Architecture
-                        </div>
-                        
-                        <div class="skill-box skill-yellow">
-                            <img src="assets/icons/gamepad-solid.svg" alt="Gamepad Icon" width="32">
-                            Videogames                            
-                        </div>
-                    </div>
 
                     <div class="details-personal">
                         <div class="title">
@@ -99,50 +89,37 @@
                         </div>
 
                         <div class="detail">
-                            <span>Full Name</span>
-                            <div>:</div>
-                            <div>Gustavo Andrés Ramirez Lopez</div>
+                            <span>Name</span>
+                            <div>Gustavo Ramírez</div>
                         </div>
 
                         <div class="detail">
                             <span>Country</span>
-                            <div>:</div>
                             <div>Colombia</div>
                         </div>
 
                         <div class="detail">
                             <span>Department</span>
-                            <div>:</div>
                             <div>Risaralda</div>
                         </div>
                         
                         <div class="detail">
                             <span>City</span>
-                            <div>:</div>
-                            <div>Dosquebradas</div>
+                            <div>Pereira</div>
                         </div>
                        
                         <div class="detail">
                             <span>Phone</span>
-                            <div>:</div>
                             <a href="tel:+57 301 4477 647">+57 301 4477 647</a>
                         </div>
 
                         <div class="detail">
                             <span>Email</span>
-                            <div>:</div>
                             <a href="mailto:garamirezl@outlook.com">garamirezl@outlook.com</a>
-                        </div>
-                        
-                        <div class="detail">
-                            <span>Email 2</span>
-                            <div>:</div>
-                            <a href="mailto:a.ramirez2@utp.edu.co">a.ramirez2@utp.edu.co</a>
                         </div>
 
                         <div class="detail">
                             <span>Occupation</span>
-                            <div>:</div>
                             <div>Student</div>
                         </div>
                     </div>
@@ -165,90 +142,25 @@
 
                 <div class="skills__percentage">
                     <div class="title">
-                        PROFESSIONAL SKILLS
+                        FRONTEND
                     </div>
-                    
                     <div class="percentages">
-                        <!-- HTML -->
-                        <div class="progress-container">
-                            <label>HTML</label>
-                            <div class="progress">
-                                <div class="bar-progress bar-progress-html">
-                                    <span>90%</span>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="icon-skill" style="--background-url: url('../icons/angular-16.svg')" title="Angular"></div>
+                        <div class="icon-skill" style="--background-url: url('../icons/javascript-16.svg')" title="JavaScript"></div>
+                        <div class="icon-skill" style="--background-url: url('../icons/typescript-16.svg')" title="TypeScript"></div>
+                        <div class="icon-skill" style="--background-url: url('../icons/api-outlined.svg')" title="API's"></div>
+                        <div class="icon-skill" style="--background-url: url('../icons/html-16.svg')" title="HTML5"></div>
+                        <div class="icon-skill" style="--background-url: url('../icons/css-16.svg')" title="CSS3"></div>
+                    </div>
 
-                        <!-- TypeScript -->
-                        <div class="progress-container">
-                            <label>TypeScript</label>
-                            <div class="progress">
-                                <div class="bar-progress bar-progress-typescript">
-                                    <span>65%</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- JavaScript -->
-                        <div class="progress-container">
-                            <label>JavaScript</label>
-                            <div class="progress">
-                                <div class="bar-progress bar-progress-javascript">
-                                    <span>80%</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Python -->
-                        <!-- <div class="progress-container">
-                            <label>Python</label>
-                            <div class="progress">
-                                <div class="bar-progress bar-progress-python">
-                                    <span>45%</span>
-                                </div>
-                            </div>
-                        </div> -->
-
-                        <!-- C++ -->
-                        <!-- <div class="progress-container">
-                            <label>C++</label>
-                            <div class="progress">
-                                <div class="bar-progress bar-progress-cpp">
-                                    <span>50%</span>
-                                </div>
-                            </div>
-                        </div> -->
-
-                        <!-- Node.js -->
-                        <div class="progress-container">
-                            <label>Node.js</label>
-                            <div class="progress">
-                                <div class="bar-progress bar-progress-nodejs">
-                                    <span>55%</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- MongoDB -->
-                        <div class="progress-container">
-                            <label>MongoDB</label>
-                            <div class="progress">
-                                <div class="bar-progress bar-progress-mongodb">
-                                    <span>80%</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- MySQL -->
-                        <div class="progress-container">
-                            <label>MySQL</label>
-                            <div class="progress">
-                                <div class="bar-progress bar-progress-mysql">
-                                    <span>85%</span>
-                                </div>
-                            </div>
-                        </div>
-                        
+                    <div class="title">
+                        BACKEND
+                    </div>
+                    <div class="percentages">
+                        <div class="icon-skill" style="--background-url: url('../icons/node-16.svg')" title="NodeJS"></div>
+                        <div class="icon-skill" style="--background-url: url('../icons/mongodb-solid.svg')" title="MongoDB"></div>
+                        <div class="icon-skill" style="--background-url: url('../icons/mysql.svg')" title="MySQL"></div>
+                        <div class="icon-skill" style="--background-url: url('../icons/docker-16.svg')" title="Docker"></div>
                     </div>
                 </div>
 
@@ -259,12 +171,12 @@
 
                     <div class="percentages">
                         <div class="spanish">
-                            <div class="progress-circle progress-spanish" data-progress="100" style="--progress: 360deg;">100%</div>
+                            <div class="progress-circle progress-spanish" data-progress="C1" style="--progress: 360deg;">100%</div>
                             <div class="text-center">Spanish</div>
                         </div>
                         
                         <div class="english">
-                            <div class="progress-circle progress-english    " data-progress="70" style="--progress: 252deg;">70%</div>
+                            <div class="progress-circle progress-english    " data-progress="B2" style="--progress: 252deg;">70%</div>
                             <div class="text-center">English</div>
                         </div>
                     </div>
@@ -290,8 +202,8 @@
 
                     <button class="accordion">
                         <img src="assets/icons/user-graduate-solid.svg" alt="Education Icon" width="16">
-                        COMPUTER SYSTEMS ENGINEERING
-                        <span class="education_detail"> - UTP, 2020 - NOWADAYS</span>
+                        <span class="title"> COMPUTER SYSTEMS ENGINEERING </span> <br>
+                        <span class="education_detail">UTP, 2020 - NOWADAYS</span> <br>
                         <span class="scholarship">Scholarship Student</span>
                     </button>
                     <div class="panel">
@@ -308,8 +220,8 @@
 
                     <button class="accordion">
                         <img src="assets/icons/user-graduate-solid.svg" alt="Education Icon" width="16">
-                        SOFTWARE DEVELOPMENT TECHNICIAN
-                        <span class="education_detail"> - SENA, 2018 - 2019</span>
+                        <span class="title">SOFTWARE DEVELOPMENT TECHNICIAN </span> <br>
+                        <span class="education_detail">SENA, 2018 - 2019</span>
                     </button>
                     <div class="panel">
                         <p>
@@ -322,34 +234,21 @@
 
                     <button class="accordion">
                         <img src="assets/icons/user-graduate-solid.svg" alt="Education Icon" width="16">
-                        HIGH SECONDARY EDUCATION
-                        <span class="education_detail"> - INSTITUCIÓN EDUCATIVA SAN MATEO, 2012 - 2019</span>
+                        <span class="title">CERTIFICATIONS</span>
                     </button>
                     <div class="panel">
                         <p>
-                            The Institución Educativa San Mateo is an educational institution located in Soacha, Cundinamarca, Colombia
-                        </p>
-                    </div>
-
-                    <button class="accordion">
-                        <img src="assets/icons/user-graduate-solid.svg" alt="Education Icon" width="16">
-                        HIGH SCHOOL DEGREE
-                        <span class="education_detail"> - INSTITUCIÓN EDUCATIVA SAN MATEO, 2008 - 2012</span>
-                    </button>
-                    <div class="panel">
-                        <p>
-                            The Institución Educativa San Mateo is an educational institution located in Soacha, Cundinamarca, Colombia
+                            <div class="education__certifications">
+                                If you want to see all of my certifications, 
+                                <a class="click-here" target="_blank" rel="noopener" 
+                                href="https://drive.google.com/drive/folders/1Zl7rLNj4s-Hn8CXxtJOHwQh-_RXkQEVp?usp=sharing">
+                                    click here
+                                </a>
+                                and visit my <a href="https://www.linkedin.com/in/areshk/"  class="click-here" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                            </div>
                         </p>
                     </div>
                 </div>  
-
-                <div class="education__certifications">
-                    If you want to see all of my certifications, 
-                    <a class="click-here" target="_blank" rel="noopener" 
-                    href="https://drive.google.com/drive/folders/1Zl7rLNj4s-Hn8CXxtJOHwQh-_RXkQEVp?usp=sharing">
-                        click here
-                    </a>
-                </div>
 
                 <div class="education__scholarship">
                     If you want to see more information about the scholarship I am in,

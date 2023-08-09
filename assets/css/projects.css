@@ -70,6 +70,12 @@
     flex-wrap: wrap;
 }
 
+
+.project-thumbnail{
+    width: 200px;
+    height: 200px;
+}
+
 .modal__activator{
     all: unset;
     width: 200px;
@@ -136,4 +142,18 @@
 
 .projects__seemore a:hover{
     background-color: #742336;
+}
+
+@media (max-width: 542px){
+    .modal__activator, .project-thumbnail{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 428px){
+    .modal__activator, .project-thumbnail{
+        width: 100px;
+        height: 100px;
+    }
 }

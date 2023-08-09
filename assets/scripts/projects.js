@@ -28,7 +28,7 @@ function createModal(project, ModalID){
       onclick="window.${ModalID}.showModal()" id="btn${ModalID}"
       style="--test: '${project.name}';">
       
-      <img src="${project.thumbnail}" width="200" height="200">
+      <img src="${project.thumbnail}" class="project-thumbnail">
 
     </button>
 
