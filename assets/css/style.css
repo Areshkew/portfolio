@@ -22,6 +22,7 @@ body{
     height: 100%;
     padding: 0 2rem;
     overflow-x: hidden;
+    font-size: var(--font-size-base);
 }
 
 /*  Common Classes */
