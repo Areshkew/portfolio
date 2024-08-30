@@ -1,25 +1,20 @@
-{
+    {
   "projects": [
     {
       "id": 0,
-      "name": "PyFarmer Bill Administrator",
+      "name": "LibHub",
       "screenshots": [
-        "imgs/PyFarmer/VISTA_LISTA_FACTURAS_3.webp",
-        "imgs/PyFarmer/VISTA_CRUD_PRODUCTOS_4.webp",
-        "imgs/PyFarmer/VISTA_LISTA_FACTURAS_2.webp",
-        "imgs/PyFarmer/VISTA_LISTA_FACTURAS.webp",
-        "imgs/PyFarmer/Vista_CRUD_Clientes_2.webp",
-        "imgs/PyFarmer/VISTA_CRUD_CREAR_FACTURA.webp",
-        "imgs/PyFarmer/VISTA_CRUD_PRODUCTOS_3.webp",
-        "imgs/PyFarmer/VISTA_CRUD_PRODUCTOS_2.webp",
-        "imgs/PyFarmer/Vista_CRUD_PRODUCTOS.webp",
-        "imgs/PyFarmer/Vista_CRUD_Clientes..webp"
+        "imgs/Libhub/img1.jpg",
+        "imgs/Libhub/img2.jpg",
+        "imgs/Libhub/img3.jpg",
+        "imgs/Libhub/img4.jpg",
+        "imgs/Libhub/img5.jpg"
       ],
-      "repoLink": "https://github.com/Areshkew/pyfarmer",
-      "thumbnail": "imgs/PyFarmer/thumbnail.webp",
+      "repoLink": "https://github.com/Areshkew/humble-project",
+      "thumbnail": "imgs/LibHub/thumbnail.jpg",
       "privacy": "Public",
-      "stack": "Python, PyQT",
-      "description": "Development of a billing system for an agricultural store that sells control products (fertilizers, pesticides) and antibiotics for farm animals. It allows registering customers, managing product sales, and generating invoices with the total purchase amount."
+      "stack": "Python (FastAPI), Javascript (Angular)",
+      "description": "LibHub is an online bookstore system that streamlines user management, book cataloging, and e-commerce functionalities. Built with a Python FastAPI backend and an Angular frontend, it features secure user authentication with JWT, PostgreSQL database integration, and automated CI/CD processes via GitHub Actions. The system includes advanced search, personalized recommendations, a shopping cart, and support for book reservations, providing a comprehensive and user-friendly platform for managing and purchasing books online."
     },
     {
       "id": 1,
