@@ -67,6 +67,18 @@
       "privacy": "Private",
       "stack": "NodeJS, Express, Angular, MySQL",
       "description": "A music player that includes features such as playlist creation, uploading songs with their respective cover art, and the ability to manage them (e.g., delete). Users can upload their songs for personal listening, making it a standard music player with basic functionality."
+    },
+    {
+      "id": 5,
+      "name": "RiscV",
+      "screenshots": [
+        "https://camo.githubusercontent.com/831d196d3cf24f01861dfaaa9416f54a23d02bef98386bd22b9783ee3e3ea17d/68747470733a2f2f6b6565702d69742d73696d706c652e636f6d2f696d616765732f72697363762d6c6f676f2d312e706e67"
+      ],
+      "repoLink": "https://github.com/Areshkew/riscv32-verilog",
+      "thumbnail": "https://camo.githubusercontent.com/831d196d3cf24f01861dfaaa9416f54a23d02bef98386bd22b9783ee3e3ea17d/68747470733a2f2f6b6565702d69742d73696d706c652e636f6d2f696d616765732f72697363762d6c6f676f2d312e706e67",
+      "privacy": "Public",
+      "stack": "Verilog, Python, C++",
+      "description": "An educational project centered around the RISC-V architecture. It includes the development of an educational compiler that generates RISC-V assembly code, a RISC-V compiler for converting assembly instructions into binary/hex formats, as well as two RISC-V Verilog processors: a monocycle processor and a pipelined processor. The project aims to provide hands-on experience with RISC-V instruction set architecture (ISA) and processor design."
     }
   ]
 }
