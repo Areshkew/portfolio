@@ -1,339 +1,509 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Google Font -->
+    <title>Gustavo Andrés Ramirez Lopez (Areshk) - Systems Engineer</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-
-    <!-- Normalize CSS-->
-    <link href="https://unpkg.com/@csstools/normalize.css" rel="stylesheet" />
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <link rel="stylesheet" href="assets/css/aboutme.css">
-    <link rel="stylesheet" href="assets/css/contact.css">
-    <link rel="stylesheet" href="assets/css/home.css">
-    <link rel="stylesheet" href="assets/css/skills.css">
-    <link rel="stylesheet" href="assets/css/education.css">
-    <link rel="stylesheet" href="assets/css/projects.css">
-    <title>Gustavo Ramirez</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div class="wrapper">
-        <header id="header">
-            <ul class="header__menu max-width">
-                <li id="homeLink" class="scroll-style"><a href="#home">Home</a></li>
-                <li id="aboutLink"><a href="#aboutme">About</a></li>
-                <li id="skillsLink"><a href="#skills">Skills</a></li>
-                <li id="educationLink"><a href="#education">Education</a></li>
-                <li id="projectsLink"><a href="#projects">Projects</a></li>
-                <li id="contactLink"><a href="#contact">Contact</a></li>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <h2 class="nav__logo">Areshk</h2>
+            </div>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#experience" class="nav__link">Experience</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#projects" class="nav__link">Projects</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#education" class="nav__link">Education</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
             </ul>
-        </header>
+            <div class="nav__toggle" id="nav-toggle">
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+            </div>
+        </nav>
+    </header>
 
-        <div class="content max-width">
-            <div id="home"  class="fill-content vh-100">
-                <div class="me">
-                    <div class="me-container.">
-                        <h1 id="title-portfolio">I'm <span class="text-decoration-bb">Gustavo Ramirez</span></h1>
-                        <h2>A passionate FullStack</h2>
-                        <h3>Software Engineer</h3>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__photo">
+                        <div class="photo-placeholder">
+                            <span class="photo-placeholder__text">Photo</span>
+                        </div>
                     </div>
-
-                    <div class="me-container">
-                        <a href="assets/documents/Gustavo CV.pdf" target="_blank">
-                            <img src="assets/icons/download-solid.svg" alt="Download" >
-                            Download CV
-                        </a>
-    
-                        <a href="https://github.com/Areshkew" target="_blank" rel="noopener" title="GitHub">
-                            <img src="assets/icons/github.svg" alt="GitHub" >
-                        </a>
-    
-                        <a href="https://www.linkedin.com/in/areshk/" target="_blank" rel="noopener" title="Linkedin">
-                            <img src="assets/icons/linkedin.svg" alt="LinkedIn" >
-                        </a>
+                    <h1 class="hero__title">Gustavo Andrés Ramirez Lopez</h1>
+                    <p class="hero__subtitle">Software Engineer</p>
+                    <p class="hero__description">Delivering reliable, innovative solutions through technical excellence
+                        and comprehensive system design</p>
+                    <div class="hero__buttons">
+                        <a href="#contact" class="btn btn--primary">Get In Touch</a>
+                        <a href="#projects" class="btn btn--outline">View Projects</a>
                     </div>
-                </div>
-                <div class="photo">
-                    <img src="imgs/me.webp" alt="Me">
+                    <div class="hero__social">
+                        <a href="https://github.com/Areshkew/" target="_blank" class="social-link">GitHub</a>
+                        <a href="https://www.linkedin.com/in/areshk/" target="_blank" class="social-link">LinkedIn</a>
+                        <a href="https://areshk.blog/" target="_blank" class="social-link">Blog</a>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div id="aboutme" class="fill-content vh-100">
-                <div class="section-title">
-                    <img src="assets/icons/person-solid.svg" alt="AboutMe Icon" width="16">
-                    <span class="text-decoration-bb">
-                        About Me
-                    </span>
-                </div>
-
-                <div class="aboutme__desc">
-                    Hello, I am Gustavo Ramirez, an experienced full stack developer known for my reliability, honesty, and teamwork skills. 
-                    I have a passion for creating comprehensive and functional solutions, and I continuously stay updated with the latest technologies. 
-                    Outside of coding, I enjoy exploring different forms of art, reading books, and maintaining a healthy lifestyle through regular workouts.
-                </div>
-
-                <div class="aboutme__details">
-
-                    <div class="details-personal">
-                        <div class="title">
-                            PERSONAL DETAILS
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p>Experienced full stack developer known for reliability, honesty, teamwork, and a passion for
+                            comprehensive solutions. Specialized in C/C++ and system programming with strong full-stack
+                            development capabilities.</p>
+                        <p>I enjoy art, reading, and fitness while continuously staying updated with the latest
+                            technologies. Based in Bogotá, Colombia, I'm always excited to take on new challenges and
+                            create innovative solutions.</p>
+                    </div>
+                    <div class="about__info">
+                        <div class="info-item">
+                            <strong>Location:</strong>
+                            <span>Bogotá, Colombia</span>
                         </div>
-
-                        <div class="detail">
-                            <span>Name</span>
-                            <div>Gustavo Ramírez</div>
+                        <div class="info-item">
+                            <strong>Email:</strong>
+                            <span>garamirezl@outlook.com</span>
                         </div>
-
-                        <div class="detail">
-                            <span>Country</span>
-                            <div>Colombia</div>
+                        <div class="info-item">
+                            <strong>Phone:</strong>
+                            <span>+57 301 4477 647</span>
                         </div>
-
-                        <div class="detail">
-                            <span>Department</span>
-                            <div>Risaralda</div>
-                        </div>
-                        
-                        <div class="detail">
-                            <span>City</span>
-                            <div>Pereira</div>
-                        </div>
-                       
-                        <div class="detail">
-                            <span>Phone</span>
-                            <a href="tel:+57 301 4477 647">+57 301 4477 647</a>
-                        </div>
-
-                        <div class="detail">
-                            <span>Email</span>
-                            <a href="mailto:garamirezl@outlook.com">garamirezl@outlook.com</a>
-                        </div>
-
-                        <div class="detail">
-                            <span>Occupation</span>
-                            <div>Student</div>
+                        <div class="info-item">
+                            <strong>Languages:</strong>
+                            <span>Spanish (100%), English (80%)</span>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div id="skills" class="fill-content vh-100">
-                <div class="section-title">
-                    <img src="assets/icons/keyboard-solid.svg" alt="AboutMe Icon" width="24">
-                    <span class="text-decoration-bb">
-                        My Skills
-                    </span>
-                </div>
-
-                <div class="skills__desc">
-                    With a versatile skill set honed through dedication and experience, 
-                    I bring a range of abilities to the table. From front-end design and development to backend programming, 
-                    my expertise lies in creating intuitive and impactful web solutions.
-                </div>
-
-                <div class="skills__percentage">
-                    <div class="title">
-                        FRONTEND
-                    </div>
-                    <div class="percentages">
-                        <div class="icon-skill" style="--background-url: url('../icons/angular-16.svg')" title="Angular"></div>
-                        <div class="icon-skill" style="--background-url: url('../icons/javascript-16.svg')" title="JavaScript"></div>
-                        <div class="icon-skill" style="--background-url: url('../icons/typescript-16.svg')" title="TypeScript"></div>
-                        <div class="icon-skill" style="--background-url: url('../icons/api-outlined.svg')" title="API's"></div>
-                        <div class="icon-skill" style="--background-url: url('../icons/html-16.svg')" title="HTML5"></div>
-                        <div class="icon-skill" style="--background-url: url('../icons/css-16.svg')" title="CSS3"></div>
-                    </div>
-
-                    <div class="title">
-                        BACKEND
-                    </div>
-                    <div class="percentages">
-                        <div class="icon-skill" style="--background-url: url('../icons/node-16.svg')" title="NodeJS"></div>
-                        <div class="icon-skill" style="--background-url: url('../icons/mongodb-solid.svg')" title="MongoDB"></div>
-                        <div class="icon-skill" style="--background-url: url('../icons/mysql.svg')" title="MySQL"></div>
-                        <div class="icon-skill" style="--background-url: url('../icons/docker-16.svg')" title="Docker"></div>
-                    </div>
-                </div>
-
-                <div class="skills__languages">
-                    <div class="title">
-                        LANGUAGE SKILLS
-                    </div>
-
-                    <div class="percentages">
-                        <div class="spanish">
-                            <div class="progress-circle progress-spanish" data-progress="C1" style="--progress: 360deg;">100%</div>
-                            <div class="text-center">Spanish</div>
-                        </div>
-                        
-                        <div class="english">
-                            <div class="progress-circle progress-english    " data-progress="B2" style="--progress: 252deg;">70%</div>
-                            <div class="text-center">English</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="education" class="fill-content vh-100">
-                <div class="section-title">
-                    <img src="assets/icons/graduation-cap-solid.svg" alt="Education Icon" width="24">
-                    <span class="text-decoration-bb">
-                        Education
-                    </span>
-                </div>
-
-                <div class="education__desc">
-                    As a young and passionate learner, 
-                    I am excited to share my academic journey with you. Here, you will find information about my academic background,
-                    including my degrees, certifications, and relevant coursework. 
-                    Thank you for taking the time to explore this section of my web portfolio!
-                </div>
-
-                <div class="education__q">
-
-                    <button class="accordion">
-                        <img src="assets/icons/user-graduate-solid.svg" alt="Education Icon" width="16">
-                        <span class="title"> COMPUTER SYSTEMS ENGINEERING </span> <br>
-                        <span class="education_detail">UTP, 2020 - NOWADAYS</span> <br>
-                        <span class="scholarship">Scholarship Student</span>
-                    </button>
-                    <div class="panel">
-                        <p>
-                            The Universidad Tecnológica de Pereira (UTP) is a prestigious educational institution located in Pereira, Colombia. 
-                            Founded in 1958, UTP is recognized for its commitment to providing high-quality education, fostering innovation,
-                             and contributing to the socio-economic development of the region. <br>
-
-                            UTP offers a wide range of undergraduate and postgraduate programs across various disciplines, including engineering, 
-                            sciences, humanities, and business. The institution prides itself on its comprehensive and rigorous academic curriculum,
-                            designed to equip students with the knowledge, skills, and competencies needed to excel in their chosen fields.
-                        </p>
-                    </div>
-
-                    <button class="accordion">
-                        <img src="assets/icons/user-graduate-solid.svg" alt="Education Icon" width="16">
-                        <span class="title">SOFTWARE DEVELOPMENT TECHNICIAN </span> <br>
-                        <span class="education_detail">SENA, 2018 - 2019</span>
-                    </button>
-                    <div class="panel">
-                        <p>
-                            The Servicio Nacional de Aprendizaje, commonly known as SENA, is a prominent educational institution in Colombia. 
-                            Established in 1957, SENA plays a crucial role in providing vocational and technical training to individuals across the country.
-                            With a mission to enhance the competitiveness and productivity of Colombian workers, SENA offers a wide range of programs and 
-                            courses that cater to various industries and sectors.
-                        </p>
-                    </div>
-
-                    <button class="accordion">
-                        <img src="assets/icons/user-graduate-solid.svg" alt="Education Icon" width="16">
-                        <span class="title">CERTIFICATIONS</span>
-                    </button>
-                    <div class="panel">
-                        <p>
-                            <div class="education__certifications">
-                                If you want to see all of my certifications, 
-                                <a class="click-here" target="_blank" rel="noopener" 
-                                href="https://drive.google.com/drive/folders/1Zl7rLNj4s-Hn8CXxtJOHwQh-_RXkQEVp?usp=sharing">
-                                    click here
-                                </a>
-                                and visit my <a href="https://www.linkedin.com/in/areshk/"  class="click-here" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <!-- Experience Section -->
+        <section class="section section--dark" id="experience">
+            <div class="container">
+                <h2 class="section__title">Professional Experience</h2>
+                <div class="experience__timeline">
+                    <div class="experience__item">
+                        <div class="experience__date">Feb 2025 - Present</div>
+                        <div class="experience__content">
+                            <h3 class="experience__title">Software Developer</h3>
+                            <h4 class="experience__company">Cegeka</h4>
+                            <p class="experience__location">Melbourne, Florida (Remote)</p>
+                            <div class="experience__skills">
+                                <span class="skill-pill">C</span>
+                                <span class="skill-pill">C++</span>
+                                <span class="skill-pill">12+ additional skills</span>
                             </div>
-                        </p>
+                            <p class="experience__description">Current role focusing on software development with
+                                emphasis on C/C++ programming and system-level solutions.</p>
+                        </div>
                     </div>
-                </div>  
 
-                <div class="education__scholarship">
-                    If you want to see more information about the scholarship I am in,
-                    <a class="click-here" target="_blank" rel="noopener" 
-                    href="https://www2.utp.edu.co/vicerrectoria/responsabilidad-social/noticias/convocatoria-becas-talento-estudiantes-2022-1.pdf">
-                        click here
-                    </a>
+                    <div class="experience__item">
+                        <div class="experience__date">Nov 2024 - May 2025</div>
+                        <div class="experience__content">
+                            <h3 class="experience__title">Full Stack Developer</h3>
+                            <h4 class="experience__company">VLESIM</h4>
+                            <p class="experience__location">Bogotá, Colombia</p>
+                            <div class="experience__responsibilities">
+                                <ul class="responsibility-list">
+                                    <li>Developed real-time data visualization and storage applications</li>
+                                    <li>Connected data using IoT communication strategies</li>
+                                    <li>Implemented CI/CD techniques and dockerized solutions for production</li>
+                                    <li>Created comprehensive technical documentation</li>
+                                </ul>
+                            </div>
+                            <div class="experience__projects">
+                                <h5 class="projects__subtitle">Key Projects:</h5>
+                                <div class="project-highlight">
+                                    <h6 class="project-highlight__title">Intelligent Clock System</h6>
+                                    <p class="project-highlight__desc">Participated in the development of ESP32-based
+                                        intelligent clocks with C
+                                        and Flutter for sending notifications to special students with hearing
+                                        disabilities at the Escuela Normal Superior Sagrado Corazón de Jesús in San
+                                        Pablo, Nariño. Programmed 6 units to display schedule changes, including class
+                                        starts, breaks, and endings. Utilizing an Event-Driven architecture to handle
+                                        real-time events such as schedule updates and notifications efficiently.</p>
+                                </div>
+                                <div class="project-highlight">
+                                    <h6 class="project-highlight__title">SMTP Server Migration</h6>
+                                    <p class="project-highlight__desc">Collaborated on migration from AWS SES to Postal
+                                        SMTP server, handled all configuration, deployment, and setup processes.</p>
+                                </div>
+                                <div class="project-highlight">
+                                    <h6 class="project-highlight__title">VLESIM Energy MVP</h6>
+                                    <p class="project-highlight__desc">
+                                        Designed and developed a Minimum Viable Product (MVP) for real-time energy data visualization, enabling granular
+                                        monitoring of power metrics across three phases. Utilized MQTT protocol to interface with IoT energy devices,
+                                        decoding and converting raw byte stream data into meaningful electrical parameters such as active power,
+                                        reactive power, voltage, current, power factor, THD/TDD, frequency, and cumulative energy metrics.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="experience__item">
+                        <div class="experience__date">Aug 2024 - Jan 2025</div>
+                        <div class="experience__content">
+                            <h3 class="experience__title">AI and Neuroscience Researcher</h3>
+                            <h4 class="experience__company">SNEIA, Universidad Tecnológica de Pereira</h4>
+                            <p class="experience__location">Pereira, Risaralda, Colombia (Part Time)</p>
+                            <div class="experience__skills">
+                                <span class="skill-pill">C</span>
+                                <span class="skill-pill">Python</span>
+                                <span class="skill-pill">Machine Learning</span>
+                                <span class="skill-pill">Neural Networks</span>
+                            </div>
+                            <div class="experience__responsibilities">
+                                <ul class="responsibility-list">
+                                    <li>Development and training of artificial intelligence models, specifically in
+                                        Natural Language Processing (NLP), with a focus on text classification. Trained
+                                        a model using a dataset of 15,000 records, reducing the prediction error to 11%
+                                        and significantly improving the accuracy of classifying new data.</li>
+                                    <li>Conducted research and data analysis to optimize the efficiency and accuracy of
+                                        the trained models.</li>
+                                    <li>Utilized micro controllers to capture EEG signals from the brain and created an
+                                        artificial intelligence model to generate predictions based on these signals.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience__item">
+                        <div class="experience__date">Mar 2022 - Jan 2023</div>
+                        <div class="experience__content">
+                            <h3 class="experience__title">Software Developer</h3>
+                            <h4 class="experience__company">Universidad Tecnológica de Pereira</h4>
+                            <p class="experience__location">Pereira, Colombia</p>
+                            <div class="experience__skills">
+                                <span class="skill-pill">Engineering</span>
+                                <span class="skill-pill">Angular</span>
+                                <span class="skill-pill">5+ additional skills</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience__item">
+                        <div class="experience__date">Apr 2021 - Mar 2022</div>
+                        <div class="experience__content">
+                            <h3 class="experience__title">Full Stack Developer</h3>
+                            <h4 class="experience__company">Konceptual</h4>
+                            <p class="experience__location">Bogotá D.C, Colombia (Remote)</p>
+                            <div class="experience__skills">
+                                <span class="skill-pill">Angular</span>
+                                <span class="skill-pill">C#</span>
+                                <span class="skill-pill">6+ additional skills</span>
+                            </div>
+                            <div class="experience__responsibilities">
+                                <ul class="responsibility-list">
+                                    <li>Collaborated with a team to add new features to a POS system, ensuring
+                                        compliance with DIAN regulations in Colombia.</li>
+                                    <li>Optimized websites for performance and user experience, improving load times and
+                                        responsiveness.</li>
+                                    <li>Converted design mockups into functional and responsive interfaces.</li>
+                                    <li>Managed version control and code changes using Git, ensuring smooth development
+                                        workflows.</li>
+                                    <li>Ensured functionality and resolved issues through debugging and testing.</li>
+                                    <li>Created multiple endpoints to add new functionalities to the system.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience__item">
+                        <div class="experience__date">Aug 2020 - Feb 2021</div>
+                        <div class="experience__content">
+                            <h3 class="experience__title">Freelance Fullstack Developer</h3>
+                            <h4 class="experience__company">Freelance</h4>
+                            <p class="experience__location">Bogotá D.C, Colombia (Remote)</p>
+                            <div class="experience__responsibilities">
+                                <ul class="responsibility-list">
+                                    <li>Developed and designed a system for product management and availability.</li>
+                                    <li>Implemented features to improve the company's operational efficiency.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div id="projects" class="fill-content vh-100">
-                <div class="section-title">
-                    <img src="assets/icons/diagram-project-solid.svg" alt="Projects Icon" width="24">
-                    <span class="text-decoration-bb">
-                        Projects
-                    </span>
-                </div>
-
-                <div class="projects__desc">
-                    Here, you can explore the various projects I have worked on and get a glimpse of my skills, creativity, and problem-solving abilities.
-                    Each project represents a unique challenge and showcases my dedication to delivering high-quality results.
-                </div>
-
-                <div id="projects__links">  
-                    <!-- Projects Generated from Javascript -->
-                </div>
-
-                <div class="projects__seemore">
-                    <a href="https://github.com/Areshkew?tab=repositories" target="_blank">
-                        See More
-                        >
-                    </a>
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Technical Skills</h2>
+                <div class="skills__grid">
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Programming Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Frontend Development</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Angular</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">Tailwind CSS</span>
+                            <span class="skill-tag">SASS</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Backend Development</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">REST APIs</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Cloud & DevOps</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Azure</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">CI/CD</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div id="contact" class="fill-content vh-100">
-                <div class="section-title">
-                    <img src="assets/icons/message-regular.svg" alt="Projects Icon" width="24">
-                    <span class="text-decoration-bb">
-                        Contact
-                    </span>
+        <!-- Projects Section with Bento Grid -->
+        <section class="section section--dark" id="projects">
+            <div class="container">
+                <h2 class="section__title">Featured Projects</h2>
+                <div class="projects__bento">
+                    <div class="project-card project-card--large">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">LibHub E-commerce Platform</h3>
+                            <span class="project-card__type">Full Stack Web Application</span>
+                        </div>
+                        <div class="project-card__content">
+                            <p class="project-card__description">Complete e-commerce platform for book management and
+                                sales built with modern web technologies and comprehensive CI/CD pipeline.</p>
+                            <div class="project-card__tech">
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">FastAPI</span>
+                                <span class="tech-tag">CI/CD</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card project-card--medium">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">RISC-V Processor Suite</h3>
+                            <span class="project-card__type">Systems Programming</span>
+                        </div>
+                        <div class="project-card__content">
+                            <p class="project-card__description">Educational compiler generating RISC-V assembly code
+                                with both monocycle and pipelined processors in Verilog.</p>
+                            <div class="project-card__tech">
+                                <span class="tech-tag">C++</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Verilog</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card project-card--medium">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">Edunat</h3>
+                            <span class="project-card__type">FULL STACK WEB APPLICATION</span>
+                        </div>
+                        <div class="project-card__content">
+                            <p class="project-card__description">
+                                Edunat is a full-stack educational platform built for the Universidad Tecnológica de Pereira.
+                                It manages courses and user interactions through a robust API and modern frontend.
+                            </p>
+                            <div class="project-card__tech">
+                                <span class="tech-tag">Python (FastAPI)</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">JS</span>
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">Nginx</span>
+                            </div>
+                            <div class="project-card__links">
+                                <a href="https://github.com/Areshkew/edunat" target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card project-card--small">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">Vehicle Route Optimization</h3>
+                        </div>
+                        <div class="project-card__content">
+                            <p class="project-card__description">C++ implementation with advanced algorithms and
+                                QuadTree optimization.</p>
+                            <div class="project-card__tech">
+                                <span class="tech-tag">C++</span>
+                                <span class="tech-tag">Algorithms</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card project-card--medium">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">Machine Learning Projects</h3>
+                            <span class="project-card__type">AI/ML</span>
+                        </div>
+                        <div class="project-card__content">
+                            <p class="project-card__description">XGBoost model deployment on Azure cloud platform with
+                                comprehensive data analysis.</p>
+                            <div class="project-card__tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">XGBoost</span>
+                                <span class="tech-tag">Azure</span>
+                                <span class="tech-tag">FastAPI</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="contact__desc">
-                    I would love to hear from you ❤️. <br>
-                    If you have any questions, feedback, or would like to discuss potential collaborations,
-                    please feel free to reach out to me using the contact information provided below.
-
-                    I am open to new opportunities and would be thrilled to connect with you. Whether you have a project in mind or simply want to say hello, 
-                    don't hesitate to get in touch. I value effective communication and will do my best to respond promptly.
-                </div>
-
-                <div class="contact__me">
-
-                    <form class="contact-form" action="https://send.pageclip.co/RKx9szVXQQtseEJ9wMEzOKTIU6vELES0/contact-form" method="post" target="_blank">
-                        <h3>CONTACT ME 😊</h3>
-
-                        <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-                        <input class="form-input" type="text" name="name" placeholder="Your name" required/>
-                        <input class="form-input" type="text" name="subject" placeholder="Subject" required/>
-                        <input class="form-input" type="email" name="email" placeholder="yourEmail@example.com" required/>
-
-                        <textarea class="form-input" name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
-                        
-                        <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-                        <button class="form-submit pageclip-form__submit" type="submit" class="">
-                            <span>Send Form</span>
-                        </button>
-                    </form>
-                </div>
-
             </div>
+        </section>
 
+        <!-- Education Section -->
+        <section class="section" id="education">
+            <div class="container">
+                <h2 class="section__title">Education</h2>
+                <div class="education__timeline">
+                    <div class="education__item">
+                        <div class="education__date">2020 - 2024</div>
+                        <div class="education__content">
+                            <h3 class="education__title">Computer Systems Engineering</h3>
+                            <h4 class="education__institution">Universidad Tecnológica de Pereira (UTP)</h4>
+                            <span class="status status--success">Completed</span>
+                            <p class="education__description">Prestigious educational institution in Pereira, Colombia,
+                                known for high-quality education and innovation in engineering and technology.</p>
+                        </div>
+                    </div>
+                    <div class="education__item">
+                        <div class="education__date">2018 - 2019</div>
+                        <div class="education__content">
+                            <h3 class="education__title">Software Development Technician</h3>
+                            <h4 class="education__institution">SENA (Servicio Nacional de Aprendizaje)</h4>
+                            <span class="status status--success">Completed</span>
+                            <p class="education__description">Comprehensive vocational and technical training in
+                                software development methodologies and practices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section section--dark" id="contact">
+            <div class="container">
+                <h2 class="section__title">Get In Touch</h2>
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <h3>Let's Work Together</h3>
+                        <p>I'm always interested in new opportunities and challenging projects. Feel free to reach out
+                            if you'd like to discuss potential collaborations or have any questions.</p>
+                        <div class="contact__methods">
+                            <div class="contact__method">
+                                <strong>Email</strong>
+                                <a href="mailto:garamirezl@outlook.com">garamirezl@outlook.com</a>
+                            </div>
+                            <div class="contact__method">
+                                <strong>Phone</strong>
+                                <a href="tel:+573014477647">+57 301 4477 647</a>
+                            </div>
+                            <div class="contact__method">
+                                <strong>Location</strong>
+                                <span>Bogotá, Colombia</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__form">
+                        <form class="form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__left">
+                    <p>&copy; 2025 Gustavo Andrés Ramirez Lopez (Areshk). All rights reserved.</p>
+                </div>
+                <div class="footer__right">
+                    <a href="https://github.com/Areshkew/" target="_blank" class="footer__link">GitHub</a>
+                    <a href="https://www.linkedin.com/in/areshk/" target="_blank" class="footer__link">LinkedIn</a>
+                </div>
+            </div>
         </div>
+    </footer>
 
-        <footer class="max-width">
-            © 2023 Gustavo Ramirez. All rights reserved.
-        </footer>
-    </div>
-
-    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
-    <script src="assets/scripts/scroll.js"></script>
-    <script src="assets/scripts/accordion.js"></script>
-    <script src="assets/scripts/projects.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
